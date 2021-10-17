@@ -1,0 +1,16 @@
+
+.btnGoogle { 
+    margin:5px;
+    width: 300px;
+    height:35px;
+    border-radius: 4px; 
+    background: #db3236;
+    color:white;    
+    border:0px transparent;
+    text-align: center;
+  }
+
+  .btnGoogle:hover {
+    background: #db3236;
+    opacity: 0.6;
+  }

@@ -1,0 +1,64 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.page06{
+
+    height:700px;
+    width:100%;
+    position: relative;
+    background-color: #153D67;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.page06Container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:80%
+}
+
+.page06Container h1{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top: -300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page06Content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+    color: white;
+}
+
+
+.page06ContentList{
+
+    /* margin-top: 100px; */
+}
+
+.btnenroll{
+
+    height: 50px;
+    width: 50%;
+    background-color:#ffff00 ;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -250px;
+}
