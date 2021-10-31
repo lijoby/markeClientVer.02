@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+
+.theteam-container{
+
+    display: flex;
+    flex-direction: column;
+    height: 780px;
+    width: 100%;
+    background-color: #153D67;
+    
+    /* background-image: url('./images/thteambg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.theteam-container h1{
+
+    margin: 20px;
+    margin-top: 0px;
+    padding: 50px;
+    color: white;
+}
+
+
+.theteam{
+
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.person01{
+
+    height: 550px;
+    width: 350px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: -150px;
+}
+
+.person01Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.imgperon{
+
+    height: 150px;
+    width:150px;
+    margin: 20px;
+}
+
+.socialMedia  ul{
+
+    list-style: none;
+}
+
+.socialMedia  ul li{
+
+    padding: 10px;
+}
+
+.socialMedia img{
+
+    height: 20px;
+    width: 20px;
+}
+
+.personBottom{
+
+    text-align: left;
+    left: 50px;
+    position: relative;
+    padding: 10px;
+    height: 330px;
+    width: 70%;
+    /* background-color: blue; */
+}
+
+.personBottom h3{
+
+    text-align: start;
+    margin-left: -5px;
+}
+
+.personBottom ul{
+
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+    position: relative;
+    line-height: 21px;
+    left: 30px;
+}
+
+.teammessage{
+
+    width: 30%;
+    height: 100%;
+    position: relative;
+    padding: 30px;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imgleft{
+
+    height: 400px;
+    width: 450px;
+    position: relative;
+    }
+
+.teammessage p{
+
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    
+}
+
+
+
+@media only screen and (max-width: 480px){
+
+
+    .theteam-container{
+
+        display: flex;
+        flex-direction: column;
+        height: 1850px;
+        width: 100%;
+        background-color: #153D67;
+        
+        /* background-image: url('./images/thteambg.jpg'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .theteam-container h1{
+    
+        margin: 20px;
+        margin-top: 0px;
+        padding: 50px;
+        color: white;
+        font-size: 25px;
+        left: -50px;
+        position: relative;
+    }
+
+
+    .theteam{
+
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .teammessage{
+
+        width: 30%;
+        height: 100%;
+        position: relative;
+        padding: 30px;
+        top: -50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .imgleft{
+    
+        height: 400px;
+        width: 450px;
+        position: relative;
+        display: none;
+        }
+    
+    .teammessage p{
+    
+        font-size: 15px;
+        text-align: justify;
+        margin-top: 0px;
+        font-size: 15px;
+        position: relative;
+        color: white;
+        left: -60px;
+        width: 200px;
+        margin-bottom: 20px;
+        
+    }
+
+    .person01{
+
+        height: 650px;
+        width: 240px;
+        background-color: white;
+        border: 2px solid black;
+        margin-top: -30px;
+        left: -60px;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
+    .personBottom{
+
+        text-align: left;
+        left: 20px;
+        position: relative;
+        padding: 10px;
+        height: 700px;
+        width: 70%;
+        /* background-color: blue; */
+    }
+    
+
+    
+
+
+}
+
+
+
